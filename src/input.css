@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@theme{
+    --font-anton: "Anton", sans-serif;
+    --font-dmmono: "DM Mono", monospace;
+    --font-inter: "Inter", sans-serif;
+
+    --color-primary: #e53935;
+    --color-bg: #080808;
+
+    --breakpoint-md: 768px;
+}
+
+@layer base{
+    .container{
+        margin: 0 auto;
+        padding: 1rem;
+    }
+}
