@@ -10,10 +10,10 @@
   <body class="bg-bg text-text font-inter">
     <!-- HEADER -->
     <header
-      class="flex justify-between items-center p-6 border-b border-text/10"
+      class="flex justify-between items-center px-6 py-4 border-b border-text/10"
     >
       <span class="font-anton tracking-widest text-2xl">JORDAN</span>
-      <span class="relative text-muted-text ">
+      <span class="relative text-muted-text">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -36,6 +36,77 @@
         </span>
       </span>
     </header>
+
+    <main
+      class="max-w-5xl w-full mx-auto px-4 md:px-8 py-8 grid justify-center md:grid-cols-2 gap-8"
+    >
+      <div
+        class="w-full h-full rounded-sm overflow-hidden grid place-content-center"
+      >
+        <div class="relative">
+          <img
+            class="object-cover hover:scale-105 transition-transform duration-300"
+            src="./img/photo-1597045566677-8cf032ed6634.avif"
+            alt="jordan photo"
+          />
+          <div
+            class="bg-primary absolute top-4 left-4 flex items-center justify-center gap-1.5 text-text px-3 py-1 rounded-sm"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="11"
+              height="11"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-zap text-primary-foreground"
+              data-fg-d3bl18="0.8:23.1864:node_modules/lucide-react:68:13:2695:53:e:Zap::::::Cp7"
+              data-fgid-d3bl18=":rc:"
+            >
+              <path
+                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"
+              ></path>
+            </svg>
+            <span
+              class="font-dmmono text-xs font-semibold tracking-widest uppercase"
+              >New Drop</span
+            >
+          </div>
+          <button
+            id="heart"
+            class="absolute top-4 right-4 size-9 text-muted-text bg-[#111111] grid place-content-center rounded-full hover:border hover:border-primary"
+          >
+            <svg
+              id="heart-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              data-fg-d3bl23="0.8:23.1864:node_modules/lucide-react:82:13:3296:138:e:Heart::::::Bi8G"
+              data-fgid-d3bl23=":rf:"
+            >
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="flex items-center justify-start gap-2 mt-3">
+          <img class="size-16 rounded-sm cursor-pointer opacity-80 border border-primary" src="./img/photo-1597045566677-8cf032ed6634.avif" alt="jordan photo">
+          <img class="size-16 rounded-sm cursor-pointer opacity-80" src="./img/photo-1597045566677-8cf032ed6634.avif" alt="jordan photo">
+          <img class="size-16 rounded-sm cursor-pointer opacity-80" src="./img/photo-1597045566677-8cf032ed6634.avif" alt="jordan photo">
+        </div>
+      </div>
+    </main>
+
     <script src="./app.js"></script>
   </body>
 </html>
