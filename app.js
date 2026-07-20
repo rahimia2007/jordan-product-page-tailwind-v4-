@@ -1,3 +1,4 @@
+// Product photo heart 
 const heart = document.getElementById("heart");
 const heartIcon = document.getElementById("heart-icon");
 
@@ -6,6 +7,7 @@ heart.addEventListener("click", () => {
   heartIcon.classList.toggle("fill-primary");
 });
 
+// Color section
 const colorName = document.getElementById("color-name");
 const colors = document.querySelectorAll("#colors button");
 
@@ -23,6 +25,7 @@ colors.forEach(function (color) {
   });
 });
 
+// Size section 
 const sizeBtns = document.querySelectorAll("#sizes button");
 const showSize = document.getElementById("show-size");
 const addCartBtn = document.getElementById("add-cart");
